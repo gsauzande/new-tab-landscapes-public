@@ -289,8 +289,8 @@
       </div>
       <h1>Privacy Policy for New Tab Landscapes</h1>
       <div class="meta-dates">
-        <span><strong>Effective Date:</strong> September 18, 2026</span>
-        <span><strong>Last Updated:</strong> September 18, 2026</span>
+        <span><strong>Effective Date:</strong> September 19, 2026</span>
+        <span><strong>Last Updated:</strong> September 19, 2026</span>
       </div>
     </header>
 
@@ -301,14 +301,12 @@
 
       <section id="section-1">
         <h2>1. Information We Collect and How It Is Used</h2>
-        <p>New Tab Landscapes is designed to operate locally on your device with minimal external data requests.</p>
+        <p>New Tab Landscapes is designed to operate 100% locally on your device with minimal external network requests.</p>
         
-        <h3>A. Google Tasks Data</h3>
-        <p>If you choose to enable Google Tasks integration:</p>
+        <h3>A. Local Tasks Data</h3>
         <ul>
-          <li><strong>Scope Requested:</strong> <code>https://www.googleapis.com/auth/tasks</code></li>
-          <li><strong>How We Use It:</strong> We access your Google Tasks strictly to display, create, edit, and complete your task items directly within your new tab page.</li>
-          <li><strong>Storage & Processing:</strong> All task data is fetched directly from Google’s official APIs to your local browser session. <strong>We do not collect, transmit, or store your task content on any external servers owned by us.</strong></li>
+          <li><strong>Data Handled:</strong> Tasks, to-do items, lists, notes, and due dates created in the extension.</li>
+          <li><strong>Storage & Processing:</strong> All tasks data is stored exclusively in your browser's local storage (<code>chrome.storage.local</code>). <strong>We do not collect, transmit, or store your task content on any external servers.</strong></li>
         </ul>
 
         <h3>B. License & Subscription Data (Gumroad)</h3>
@@ -326,48 +324,33 @@
       </section>
 
       <section id="section-2">
-        <div class="callout-box">
-          <h2>2. Google API Limited Use Disclosure</h2>
-          <p>
-            New Tab Landscapes' use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener noreferrer">Google API Services User Data Policy</a>, including the Limited Use requirements.
-          </p>
-          <ul style="margin-top: 0.75rem; margin-bottom: 0;">
-            <li><strong>No Server Storage:</strong> We do not transfer Google Tasks data to third-party servers.</li>
-            <li><strong>No Human Inspection:</strong> We do not allow humans to read your Google Tasks data.</li>
-            <li><strong>No Advertising:</strong> Google Tasks data is never used for advertising, marketing, or targeting purposes.</li>
-          </ul>
-        </div>
-      </section>
-
-      <section id="section-3">
-        <h2>3. Data Sharing and Third-Party Services</h2>
+        <h2>2. Data Sharing and Third-Party Services</h2>
         <p>
           We do <strong>not</strong> sell, trade, rent, or monetize your personal data or extension usage data to any third party under any circumstances.
         </p>
-        <p>We interact only with the following official third-party APIs as part of core app functionality:</p>
+        <p>We interact only with the following external service as part of core app functionality:</p>
         <ul>
-          <li><strong>Google APIs:</strong> Authenticates user sessions and syncs tasks directly between your browser and Google's servers.</li>
-          <li><strong>Gumroad API:</strong> Validates license keys directly between your browser and Gumroad.</li>
+          <li><strong>Gumroad API:</strong> Validates license keys directly between your browser and Gumroad (<code>https://api.gumroad.com</code>).</li>
+        </ul>
+      </section>
+
+      <section id="section-3">
+        <h2>3. Data Retention and Security</h2>
+        <ul>
+          <li>All personal data (tasks, settings, timer states) is kept locally on your device.</li>
+          <li>You can remove all data created by the extension at any time by uninstalling the extension or clearing your browser extension storage.</li>
         </ul>
       </section>
 
       <section id="section-4">
-        <h2>4. Data Retention and Security</h2>
-        <ul>
-          <li>All personal data (tasks, settings, timer states) is kept locally on your device or securely within your own Google account.</li>
-          <li>You can remove all local data created by the extension at any time by uninstalling the extension or clearing your browser extension storage.</li>
-        </ul>
-      </section>
-
-      <section id="section-5">
-        <h2>5. Changes to This Privacy Policy</h2>
+        <h2>4. Changes to This Privacy Policy</h2>
         <p>
           We may update this Privacy Policy from time to time to reflect changes in functionality or legal requirements. Any updates will be posted on this page with an updated "Last Updated" date.
         </p>
       </section>
 
-      <section id="section-6">
-        <h2>6. Contact Us</h2>
+      <section id="section-5">
+        <h2>5. Contact Us</h2>
         <p>If you have any questions or concerns regarding this Privacy Policy or how your data is handled, please contact us at:</p>
         <div class="contact-card">
           <p style="margin: 0;"><strong>Email:</strong> <a href="mailto:support@newtablandscapes.com">support@newtablandscapes.com</a></p>
